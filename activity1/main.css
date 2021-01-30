@@ -4,90 +4,89 @@
   box-sizing: border-box;
 }
 
+#pagewrapper {
+  overflow: hidden;
+  background-color: #3e3e3e;
+  padding: 2rem;
+}
+
+.contentwrapper {
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 body {
-  color: #414141;
   font-size: 16pt;
 }
 
-
 h1 {
   font-size: 2rem;
-  border-bottom: 1px solid red;
 }
 
 h2 {
   font-size: 1.8rem;
-  border-bottom: 1px solid red;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul {
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: normal;
-  margin-bottom: 1em;
 }
 
-p {
-  margin-bottom: 50px;
-}
-
-nav > ul {
+ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+}
+
+/* Menu */
+.menu {
+  background-color: #fff;
+  color: #1c1d1e;
+}
+.menu nav {
   overflow: hidden;
-  background-color: #1a3054;
-}
-
-nav > ul > li {
-  float: left;
-  border-right: 1px solid black;
-}
-
-nav > ul > li:last-child {
-  border-right: none;
-}
-
-nav > ul > li, nav > ul > li > a {
-  display: block;
-  color: white;
-  text-align: center;
   padding: 1rem;
-  text-decoration: none;
 }
 
-nav > ul > li:hover{
-  background-color: #111;
+.menu a {
+    text-decoration: none;
 }
 
-.active {
-  background-color: #c5c5c5;
+.menu a:visited {
+    color: #1c1d1e;
 }
 
-em, strong {
-  background-color: #fec600;
+.menu li {
+  float: left;
+  margin-right: 1rem;
+  padding: 1rem;
 }
 
-.button {
-  color: #FFF;
-  background-color: #5995DA;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center;
-  border: 2px solid #5D6063;
-  border-radius: 5px;
+/* Sidebar */
+.sidebar {
+  background-color: blue;
+  float: left;
   width: 200px;
-  margin: 10px auto;
 }
 
-#pagewrapper {
-  background-color: #efefef;
-  padding: 1.5em;
-  max-width: 90%;
-  margin: 0 auto;
+/* Content */
+.content {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  float: left;
 }
 
-@media screen and (max-width: 480px) {
-  nav > ul > li {
-    float: none;
-  }
+/* Footer */
+.footer {
+  background-color: red;
+  clear: both;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  border: 1px solid black;
+  height: 100px;
 }
