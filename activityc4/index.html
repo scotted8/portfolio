@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css" />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>CSS Principles</title>
+</head>
+
+<body>
+  <!-- Bootstrap nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-darkred">
+    <a class="navbar-brand" href="/index.html">
+      CSS Principles
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/portfolio.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/reviews.html">Contact</a>
+        </li>
+      </ul>
+        <a href="#" class="fa fa-shopping-cart fa-2x">
+        </a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div id=pagewrapper>
+    <header class="major">
+      <h2>Your cart</h2>
+    </header>
+    <div class="content">
+      <div class="payment">
+        <div class="payment-section">
+          <header>
+            <h3>Address</h3>
+          </header>
+        </div>
+        <div class="payment-section">
+          <div class="payment-section-item">
+            <input type="text" id="fname" name="fname" placeholder="First name" class="half"></input>
+            <input type="text" id="lname" name="lname" placeholder="Last name" class="half"></input>
+          </div>
+          <div class="payment-section-item">
+            <input type="text" id="address" name="address" placeholder="Address"></input>
+          </div>
+          <div class="payment-section-item">
+            <input type="text" id="state" name="state" placeholder="State" class="half"></input>
+            <input type="text" id="zip" name="zip" placeholder="Zip code" class="half"></input>
+          </div>
+        </div>
+        <div class="payment-section">
+          <header>
+            <h3>Billing</h3>
+          </header>
+        </div>
+        <div class="payment-section">
+          <div class="payment-section-item">
+            <input type="text" id="creditcard" name="creditcard" placeholder="Card info"></input>
+          </div>
+          <div class="payment-section-item">
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" class="half"></input>
+            <input type="text" id="card-zip" name="card-zip" placeholder="Zip code" class="half"></input>
+          </div>
+        </div>
+        <div class="payment-section">
+          <header>
+            <h3>Total</h3>
+          </header>
+          <div class="payment-section-item">
+            <h4>$29.99/mo</h4>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <a href="#"><img src="images/product_th.png"></img></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div></div>
+  <div id="footer">
+    <div class="footer-item"><a href="https://github.com/BYU-CS-260-Winter-2021/lab-1-photography-website-scotted8" class="fa fa-instagram fa-3x"></a></div>
+    <div class="footer-item"><a href="https://github.com/BYU-CS-260-Winter-2021/lab-1-photography-website-scotted8" class="fa fa-facebook fa-3x"></a></div>
+    <div class="footer-item"><a href="https://github.com/BYU-CS-260-Winter-2021/lab-1-photography-website-scotted8" class="fa fa-github fa-3x"></a></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
